@@ -1,0 +1,54 @@
+{
+    "name": "UserInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "74f4f9eb-8e19-41ff-b9d7-4bcd77a65695",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "d169e91d-46e4-43f0-9ddb-fbf4d98b14e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "e4bd6d9f-567e-4e95-a5b8-a3ab65ea8be4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "065a0306-1d31-4ded-b2f1-ae3901170bf2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4610c2b-059e-4985-a73b-42db3eb5a208",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
